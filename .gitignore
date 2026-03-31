@@ -1,0 +1,16 @@
+# Large pretrained embeddings
+glove.6B.50d.txt
+glove.6B.100d.txt
+glove.6B.200d.txt
+glove.6B.300d.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local environment files
+.venv/
+venv/
+
