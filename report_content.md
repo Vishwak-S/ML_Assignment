@@ -2,7 +2,7 @@
 
 **Course:** ML for Cyber Security Assignment 2026  
 **Dataset:** IMDB 50K Movie Reviews Dataset  
-**Team Members:** `Member 1 Name`, `Member 2 Name`  
+**Team Members:** `Vishwak S`, `Girisudhan K`  
 
 ## Abstract
 This work analyzes how different text vectorization techniques affect sentiment classification performance on the IMDB movie review dataset. Since machine learning models cannot directly process raw text, it is necessary to transform text into numerical vectors. In this assignment, three vectorization approaches were used: Bag of Words (BoW), TF-IDF, and GloVe embeddings. For classification, Logistic Regression and Linear Support Vector Machine (Linear SVM) were applied to each representation. The experiments show that TF-IDF with Logistic Regression achieved the best overall performance with an accuracy of 88.65%, while GloVe with simple mean pooling produced lower accuracy but denser semantic representations. The results indicate that conventional sparse methods remain highly competitive for sentiment analysis when combined with strong linear classifiers.
@@ -152,23 +152,22 @@ The current repository demonstrates BoW, TF-IDF, and GloVe-based experiments. Wo
 - evaluating GPU-based transformer models for improved contextual understanding.
 
 ## 9. Team Contribution
-Use this section with your actual names before submission.
+The work for this assignment was shared equally between both team members.
 
-- **Member 1:** Dataset preparation, preprocessing pipeline, implementation of BoW and TF-IDF models, result visualization, GitHub setup.
-- **Member 2:** GloVe integration, classifier evaluation, classification report generation, report writing, final documentation and submission packaging.
+- *Vishwak S* Implemented the preprocessing pipeline, conventional vectorization methods (Bag of Words and TF-IDF), generated results, and organized the project repository.
+- *Girisudhan K* Worked on GloVe-based representation, reviewed the experimental outputs, refined the report content, and finalized the documentation for submission.
 
-If both of you worked jointly on everything, write:
-
-- **Member 1:** 50% contribution
-- **Member 2:** 50% contribution
+Overall contribution:
+- *Vishwak S* 50%
+- *Girisudhan K* 50%
 
 ## 10. AI Prompts Used
-If your faculty requires AI prompts used during the work, you can include 3 to 4 prompts like these:
+The following prompts were used only for guidance in structuring explanations and report writing:
 
-1. `Explain the difference between Bag of Words, TF-IDF, Word2Vec, GloVe, and BERT for NLP classification tasks.`
-2. `Help me structure a short literature review for an ML assignment comparing text vectorization techniques.`
-3. `Summarize the meaning of accuracy, precision, recall, and F1-score for sentiment analysis results.`
-4. `Help convert experiment outputs into a concise academic report conclusion.`
+1. Explain the difference between Bag of Words, TF-IDF, GloVe, Word2Vec, and BERT in NLP.
+2. Help me write a short literature review for an assignment comparing text vectorization techniques.
+3. Summarize accuracy, precision, recall, and F1-score for sentiment analysis results.
+4. Help convert ML experiment results into a formal academic conclusion.
 
 ## 11. Repository Files to Mention in Report
 You can cite the following project files in the report:
